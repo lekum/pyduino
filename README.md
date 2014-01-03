@@ -1,7 +1,7 @@
 pyduino
 =======
 
-Python library to interface with arduino via serial connection
+Python library to interface with arduino via serial connection.
 
 Functionality implemented
 -------------------------
@@ -10,7 +10,7 @@ The library implements a two-way communication over the serial connection with t
 
 The funcionalities of the Arduino library that are currently exposed via this API are:
 
-- setPinMode() 
+- pinMode() 
 - digitalRead()
 - digitalWrite()
 - analogRead()
