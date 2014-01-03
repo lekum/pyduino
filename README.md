@@ -2,3 +2,37 @@ pyduino
 =======
 
 Python library to interface with arduino via serial connection
+
+Functionality implemented
+-------------------------
+
+The library implements a two-way communication over the serial connection with the Arduino, sending text strings that encode operations to be perfomed in the ARduino board and parsing the returned messages.
+
+The funcionalities of the Arduino library that are currently exposed via this API are:
+
+- setPinMode() 
+- digitalRead()
+- digitalWrite()
+- analogRead()
+- analogWrite()
+
+Usage
+-----
+
+In order to use the library, you will need to install the python3 requirements described in requirements.txt and load the arduino sketch (pyduino_sketch.ino) in the board.
+
+After creating an Arduino board, it is advisory to pause for some seconds in order to allow the serial connection to be established.
+
+Usage example::
+
+	import time
+	a = Arduino()
+	time.sleep(3)
+	a.set_pin_mode(13,'O')
+	a.set_pin_mode(12,'I')
+	time.sleep(1)
+	a.digital_write(13,1)
+	a.analog_write(5,245)
+	print(a.digital_read(12))
+	print(a.analog_read(2))
+	time.sleep(5)
