@@ -19,11 +19,11 @@ The funcionalities of the Arduino library that are currently exposed via this AP
 Usage
 -----
 
-In order to use the library, you will need to install the python3 requirements described in requirements.txt and load the arduino sketch (pyduino_sketch.ino) in the board.
+In order to use the library, you will need to install the python3 requirements described in ``requirements.txt`` and load the arduino sketch (``pyduino_sketch.ino``) in the board.
 
 After creating an Arduino board, it is advisory to pause for some seconds in order to allow the serial connection to be established.
 
-Usage example::
+Usage example:
 
 	import time
 	a = Arduino()
