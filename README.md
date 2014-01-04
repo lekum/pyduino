@@ -26,6 +26,8 @@ After creating an Arduino board, it is advisory to pause for some seconds in ord
 Usage example:
 
 	import time
+	from pyduino import Arduino
+
 	a = Arduino()
 	time.sleep(3)
 	a.set_pin_mode(13,'O')
