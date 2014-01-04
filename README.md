@@ -8,7 +8,7 @@ Functionality implemented
 
 The library implements a two-way communication over the serial connection with the Arduino, sending text strings that encode operations to be perfomed in the ARduino board and parsing the returned messages.
 
-The funcionalities of the Arduino library that are currently exposed via this API are:
+The functionalities of the Arduino library that are currently exposed via this API are:
 
 - pinMode() 
 - digitalRead()
