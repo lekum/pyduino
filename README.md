@@ -6,7 +6,7 @@ Python library to interface with arduino via serial connection.
 Functionality implemented
 -------------------------
 
-The library implements a two-way communication over the serial connection with the Arduino, sending text strings that encode operations to be perfomed in the ARduino board and parsing the returned messages.
+The library implements a two-way communication over the serial connection with the Arduino, sending text strings that encode operations to be perfomed in the Arduino board and parsing the returned messages.
 
 The functionalities of the Arduino library that are currently exposed via this API are:
 
