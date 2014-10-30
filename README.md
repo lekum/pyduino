@@ -3,6 +3,8 @@ pyduino
 
 Python library to interface with arduino via serial connection.
 
+[![Build Status](https://travis-ci.org/lekum/pyduino.svg?branch=master)](https://travis-ci.org/lekum/pyduino)
+
 Functionality implemented
 -------------------------
 
