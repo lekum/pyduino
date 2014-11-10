@@ -40,3 +40,5 @@ Usage example:
 	print(a.digital_read(12))
 	print(a.analog_read(2))
 	time.sleep(5)
+
+Enjoy!
